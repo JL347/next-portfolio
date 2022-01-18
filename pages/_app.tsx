@@ -1,14 +1,15 @@
 import 'tailwindcss/tailwind.css'
 import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
+import About from "../components/About";
 import { ThemeProvider } from 'next-themes'
 
-function MyApp({ Component, pageProps }) {
+function MyApp() {
   return (
           <>
           <ThemeProvider attribute="class" enableSystem={false}>
             <Navigation/>
-            <Component {...pageProps} />
+            <About/>
             <Footer />
           </ThemeProvider>
           </>
