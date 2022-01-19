@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="flex flex-col justify-between lg:flex-row items-center">
           <p>Built with Next.js, Tailwind and Vercel</p>
           <div className="flex flex-wrap pt-2 sm:space-x-4 space-x-2 font-medium lg:pt-0">
-            <p class="text-muted small mb-0">Copyright &copy; Jared's Portfolio 2022</p>
+            <p className="text-muted small mb-0">Copyright &copy; Jared's Portfolio 2022</p>
             <a
               href="https://www.linkedin.com/in/jaredlemke/"
               className={"transition-colors hover:text-yellow-500"}
